@@ -13,5 +13,5 @@ while 1:
         print "It's not."
     else:
         print "The Tower is Orange"
-    time.sleep(10)
+    time.sleep(600)
 
