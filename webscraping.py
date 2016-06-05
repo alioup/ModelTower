@@ -50,3 +50,10 @@ while 1:
         BLUE.ChangeDutyCycle(0)
     time.sleep(600)
 
+# Actions under 'finally' will always be called
+# regardless of what stopped the program
+finally:
+    # Stop and cleanup so the pins
+    # are available to be used again
+    GPIO.cleanup()
+
